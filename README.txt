@@ -1,4 +1,0 @@
-# Goal Oriented Behavior - Neal Wojtowicz
-
-Developed during the Fall 2021 semester at Champlain College. This demo is based on a blog post about Goal Oriented Behavior and was a final project for an Game AI class. It includes a Unity project showcasing goal oriented behavior, a behavior system for AI agents in games. Each agent has a goal system attached and will change its goals (and corresponding actions) using basic fuzzy logic, choosing between chasing, shooting, or reloading. Each frame, the system will calculate intrinsic values for every goal the agent has. The goal with the highest intrinsic value is selected and then the system does the same thing for every action associated with that goal. These intrinsic values simulate the priority for each goal/action and the one with the highest intrinsic value will be called. Use WASD to move around and press enter to spawn more enemies.
-
